@@ -4,22 +4,22 @@ cask "tektona" do
 
   on_macos do
     on_intel do
-      sha256 "d389661e72e196bcccc0bdf932eb614cd1b8873d8a52015b0665bc6faf2e2689"
+      sha256 "96e482d6563bb8b5a7d050e22bfacd893932a263ec70596526316dfeab6a2cd7"
       url "https://github.com/tektona-ai/tektona-cli/releases/download/v#{version}/tektona_#{version}_macOS_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "6d3c86fd12dd3010b7986d272159ec2a83e012ba4b094161b73ff81c5488fb71"
+      sha256 "a0a2376eadc0d514a91a476c03438ecaab89ae952dea771e86ee989c49172846"
       url "https://github.com/tektona-ai/tektona-cli/releases/download/v#{version}/tektona_#{version}_macOS_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "d77fb5b4f6286ce3b879194013e967aee1df1104408df281165ed21e605d5e4c"
+      sha256 "c4ac121b0ad5c0f8b1e8a5b10038ae9b39610c8d4cb6c77d7baea0c6d153c1dd"
       url "https://github.com/tektona-ai/tektona-cli/releases/download/v#{version}/tektona_#{version}_linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "ff0c55fc34f8b776edd095d2b60eb55a8359f30809569b51398e882de3d44e31"
+      sha256 "0ee93d696534c23c2c284b6e2793b62b07391c18743662f8563c56616390528e"
       url "https://github.com/tektona-ai/tektona-cli/releases/download/v#{version}/tektona_#{version}_linux_arm64.tar.gz"
     end
   end
